@@ -24,10 +24,26 @@ int main(){
 
 }*/
 
-#include <stdio.h>
+/*#include <stdio.h>
+
 
 int main(){
-    char name[]= "ADDY";
+    char name[]= "ADDY"; // For strings we use double quotes
     printf("Hello %s !\n", name);
+    return 0;
+}*/
+#include <stdio.h>
+#include <stdbool.h>
+
+int main(){
+
+   '' bool isonline = true;
+   // printf("%d", isonline);
+    if(isonline){
+        printf("You are online");
+    }
+    else{
+        printf("You are offline");
+    }
     return 0;
 }
